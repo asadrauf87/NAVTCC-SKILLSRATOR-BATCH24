@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+        "header header header"
+        "nav nav nav"
+        "aside main main"
+        "footer footer footer" 
+    ;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto 1fr auto;
+    gap: 10px;
+    width: 80%;
+    height: 80vh;
+    background-color: crimson;
+    padding: 20px;
+    box-shadow: 0 4px 8px rebeccapurple;
+}
+
+.header {
+    grid-area: header;
+    background-color: chocolate;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav {
+    grid-area: nav;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.aside {
+    grid-area: aside;
+    background-color: darkgreen;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    grid-area: main;
+    background-color:deeppink ;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer {
+    grid-area: footer;
+    background-color: firebrick;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
