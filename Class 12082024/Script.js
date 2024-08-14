@@ -1,0 +1,154 @@
+//Array
+// let arr = ["Farzeen", 23, 70000];
+// console.log(arr)
+// console.log(arr[1])
+// Objects
+// let obj = {
+//     name : 'Farzeen',
+//     age : 23,
+//     salary : 70000
+// }
+// console.log(obj.salary)
+// Array & Object Destructuring
+// let arr = [1,2,3,4];
+// const [one, two, three, four] = arr;
+// console.log(one)
+// let obj = {
+//     name: 'Farzeen',
+//     age : 23
+// }
+// const {name, age} = obj;
+// console.log(name)
+// let age = 23;
+// console.log('This is my age: '+ age + 'My name is....')
+// Template Literals
+// console.log(`This is my 'age': ${age} This is my "name":    `)
+
+// Multi Dimensional Array
+// let arr = [
+//             //  0  1  2
+// //0 1  2   
+//             [1,2,3], 
+//             ['a','b','c'],
+//             ['x', 'y', 'z']
+// ];
+
+// console.log(arr[1][0])
+
+// Arrays of Objects
+
+// let arr = [
+//     {id: 1, name: 'Farzeen', age : 23},
+//     {id: 2, name: 'Ali', age : 21},
+//     {id: 3, name: 'Khan', age : 25},
+// ]
+
+// console.log(arr[1].name)
+
+// let arr1 = ['Farzeen', 23, 70000]
+// let arr2 = ['Ali', 22, 90000]
+
+// let newArray = arr1.concat(arr2)
+// console.log(newArray)
+
+// let arr = ['Ali1', 'Ali2', 'Arham', 'Ayan', 'Aqib', 'Arshad'];
+// console.log(arr.sort())
+
+// let names = ['Ali', 'Farzeen', 'Bilal'];
+// names.push("Khan")
+// names.pop()
+// names.unshift('Khan')
+// names.splice(2,1)
+
+// console.log(names)
+
+// let msg = "This is a message";
+// let splitting = msg.split(' ')
+// console.log(splitting)
+
+// let arr = [1,2,3,4,5,6,7];
+ // initialization
+ // condition
+ // updation 
+
+ // for, while, do-while
+    // for(let i = 0; i < arr.length; i++){
+    //     console.log(arr[i])
+    // }
+
+    // let i =0;
+    // while(i < arr.length){
+    //     console.log(`id: ${i+1}. This is array ${i}: ${arr[i]}`)
+    //     i++;
+    // }
+    // let i = 0;
+    // do{
+    //     console.log("This is do-while loop")
+    //     console.log(arr[i])
+    //     i++;
+    // } while(i < arr.length)
+
+
+// arr.map((item) => (
+//         console.log(item)
+//     ))
+
+
+    //filter
+    // let num = [4,3,2,1,9,55,6,8];
+    // let result = num.filter(val => val > 10)
+    // console.log(result)
+
+    // let std = [
+    //     {
+    //         name: 'Ali',
+    //         skill : 'HTML'
+    //     },
+    //     {
+    //         name: 'Khan',
+    //         skill : 'JavaScript'
+    //     },
+    //     {
+    //         name: 'jkasi',
+    //         skill : 'CSS'
+    //     },
+    //     {
+    //         name: 'aguwei',
+    //         skill : 'JavaScript'
+    //     }
+    // ]
+
+    // let result = std.filter(val => val.skill == 'JavaScript' )
+    // console.log(result)
+    // reduce
+    let kuch = [1,2,3,4];
+
+    function add(val1, val2){
+        return val1 * val2;
+    }
+
+let result = kuch.reduce(add)
+console.log(result)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
